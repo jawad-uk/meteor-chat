@@ -1,0 +1,30 @@
+<head>
+	<title>Alo آلو demo</title>
+</head>
+
+<body>
+	{{loginButtons align="right"}}<br>
+	<h1>Alo آلو</h1>
+	{{> welcome }}
+	{{> input}}
+	{{> messages}}
+</body>
+
+<template name="welcome">
+	<p>
+		Marhaban! Welcome to the Alo! demo. Log in to show username
+	</p>
+</template>
+
+
+<template name="messages">
+	{{#each messages}}
+		<strong>{{name}}:</strong> {{message}}<br>
+	{{/each}}
+</template>	
+
+<template name="input">
+	<p>
+		Message: <input type="text" id="message">
+	</p>
+</template>

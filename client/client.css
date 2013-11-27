@@ -1,0 +1,14 @@
+html {
+    padding: 10px;
+    font-family: Verdana, sans-serif;
+    direction: rtl;
+}
+
+.login-buttons-dropdown-align-right {
+    float: left;
+}
+
+body {
+	background-image:url('/images/blur-background13.jpg');
+/*	background-color: black;
+*/}
